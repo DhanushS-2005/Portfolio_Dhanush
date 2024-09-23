@@ -1,0 +1,455 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* background */
+body{
+    background-image: url(background.jpg);
+}
+/* heading */
+.head{
+    display: flex;
+    background: linear-gradient(to top, rgb(0, 0, 46), rgba(4, 67, 86, 0.992), rgb(2, 2, 53));
+    padding-left: 10%;
+    position: fixed;
+    width: 100%;
+    margin-top: -6.7%;
+    color: white;
+    font-size: 20px;
+}
+/* nav text */
+#nav1{
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+    padding-top: 7px;
+    text-align: center;
+}
+/* nav text hover */
+#nav1:hover{
+    text-decoration: underline;
+}
+/* nav text active */
+#nav1:active{
+    color:rgb(141, 214, 245);
+}
+/* .all nav */
+.nav{
+    display: flex;
+    margin-left: 35%;
+}
+/* border */
+.about{
+    border-style:groove;
+    border-color: rgb(75, 88, 242);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 100px;
+    padding-top: 200px;
+    width: 80%;
+    height: 300px;
+}
+/* name */
+.about h1{
+    text-align: center;
+    color: aliceblue;
+    font-style: oblique;
+    padding-top: 5%;
+    font-size: 50px;
+    height: 0%;
+}
+.circle{
+    border: 2px white solid;
+    border-radius: 60%;
+    margin-top: -170px;
+    width: 250px;
+    height: 250px;
+    margin-left: 39%;
+    margin-bottom: -40px;
+}
+/* profile image */
+#proimg{
+    border: 2px white solid;
+    border-radius: 60%;
+    width: 250px;
+    height: 250px;
+}
+/* about me */
+.about p{
+    color: aliceblue;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 20px;
+    padding: 10px;
+    padding-top: 100px;
+}
+/* resume & more */
+.container{
+    display: flex;
+    padding: 40px;
+}
+/* resume box */
+.resume{
+    margin-left: 320px;
+    background-color: transparent;
+    border-radius: 10px;
+    border:solid;
+    border-color: white;
+    width: 95px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+/* box text */
+#res{
+    color: white;
+    text-decoration: none;
+}
+/* box touch */
+.resume:hover{
+    background-color: rgba(240, 248, 255, 0.329);
+}
+/* box text touch */
+#res:hover{
+    color: black;
+}
+/* box text click */
+#res:active{
+    color: blue;
+}
+/* view more border */
+.more{
+    margin-left: 42%;
+    background-color: transparent;
+    border-radius: 10px;
+    border:solid;
+    border-color: white;
+    width: 95px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+/* view more text */
+#vm{
+    color: white;
+    text-decoration: none;
+}
+/* view more border touch */
+.more:hover{
+    background-color: rgba(240, 248, 255, 0.329);
+}
+/* view more text touch */
+#vm:hover{
+    color: black;
+}
+/* view more text click */
+#vm:active{
+    color: blue;
+}
+/* home about line */
+.line{
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* school & college border */
+.detailsb{
+    border-style:groove;
+    border-color: rgb(75, 88, 242);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 100px;
+    padding-top: 200px;
+    width: 80%;
+    height: 800px;
+}
+/* school name */
+.detailsb h2{
+    color: white;
+    text-align: center;
+    margin-top: -13%;
+    font-size: 35px;
+    text-transform: uppercase;
+    background-color: rgba(134, 134, 235, 0.378);
+}
+/* school & college image */
+#img{
+    width: 90%;
+    height: 360px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/* college name */
+.college h2{
+    margin-top: 2%;
+    text-align: center;
+}
+/* about resume line */
+.line2{
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10.5%;
+}
+/* resume border */
+#resume{
+    border-style:groove;
+    border-color: rgb(75, 88, 242);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 100px;
+    padding-top: 200px;
+    width: 80%;
+    height: 1300px;
+}
+/* resume text */
+#resume h2{
+    color: white;
+    text-align: center;
+    margin-top: -13%;
+    font-size: 35px;
+    text-transform: uppercase;
+    background-color: rgba(134, 134, 235, 0.378);
+}
+/* resume image */
+#imgr{
+    width: 90%;
+    padding-left: 65px;
+    padding-top: 50px;
+    height: 1300px;
+}
+/* resume project line */
+.line3{
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+#skills{
+    border-style:groove;
+    border-color: rgb(75, 88, 242);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 100px;
+    padding-top: 200px;
+    width: 80%;
+    height: 500px;
+}
+#skills h2{
+    color: white;
+    text-align: center;
+    margin-top: -12%;
+    font-size: 50px;
+    text-transform: uppercase;
+    background-color: rgba(134, 134, 235, 0.378);
+}
+.skill h3{
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 60px;
+}
+.bar{
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 20px;
+    width: 80%;
+    margin-left: 13%;
+    margin-top: 30px;
+}
+#html{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(39, 249, 39);
+    border-radius: 20px;
+}
+#css{
+    width: 65%;
+    height: 20px;
+    background-color: rgb(39, 249, 39);
+    border-radius: 20px;
+}
+#js{
+    width: 50%;
+    height: 20px;
+    background-color: rgb(39, 249, 39);
+    border-radius: 20px;
+}
+
+
+
+/* project border */
+#project{
+    border-style:groove;
+    border-color: rgb(75, 88, 242);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 130px;
+    width: 80%;
+    height: 800px;
+}
+/* project title */
+#project h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 55px;
+    text-transform: uppercase;
+    background-color: rgba(134, 134, 235, 0.378);
+}
+.project_row1{
+    display: flex;
+}
+/* project border */
+.p1{
+    border-style: groove;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.p1:hover{
+    
+    transition: transform 0.5s;
+    transform: scale(1.05);
+}
+/* project image */
+#pimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+/* project border row 2 */
+.project_row2{
+    display: flex;
+}
+/* contact border */
+#contact{
+    border-style:groove;
+    border-color: rgb(75, 88, 242);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 100px;
+    padding-top: 200px;
+    width: 80%;
+    height: 300px;
+}
+/* contact font */
+#contact h1{
+    color: white;
+    text-align: center;
+    margin-top: -10%;
+    font-size: 50px;
+    text-transform: uppercase;
+    background-color: rgba(134, 134, 235, 0.378);
+}
+/* contact box border */
+.box{
+    border-style: groove;
+    border-color: rgb(190, 194, 230);
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    margin-top: 80px;
+    margin-left: 70px;
+    transition: transform 0.5s;
+    background-color: rgba(0, 0, 0, 0.423);
+}
+/* contact box */
+.con{
+    display: flex;
+}
+.box:hover{
+    transform: scale(1.05);
+}
+/* whatsapp icon */
+.fa-whatsapp{
+    font-size: 50px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 11%;
+}
+/* contact icon text */
+.box h2{
+    color: white;
+    margin-top: 10px;
+    margin-left: 85px;
+    margin-bottom: 20px;
+}
+/* number */
+#num{
+    color: white;
+    font-size: 20px;
+    margin-left: 23%;
+    text-decoration: none;
+}
+/* number touch */
+#num:hover{
+    text-decoration: underline;
+}
+/* email icon */
+.fa-envelope{
+    font-size: 50px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+/* mail font */
+#mail{
+    margin-left: 38%;
+}
+/* mailto */
+#mailto{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* mail link touch */
+#mailto:hover{
+    text-decoration: underline;
+}
+/* linkrdin icon */
+.fa-linkedin{
+    font-size: 50px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+/* lin */
+#lin{
+    margin-left: 100px;
+}
+/* linkedin link */
+#linto{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 75px;
+}
+/* linkedin lint touch */
+#linto:hover{
+    text-decoration: underline;
+}
+/* footer */
+footer{
+    height: 70px;
+    background-color: black;
+    color: white;
+    padding-left: 40%;
+    padding-top: 2%;
+    margin-top: 5%;
+}
+
+
+
